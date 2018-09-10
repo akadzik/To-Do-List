@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>To_do_list</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <main class="app-container">
+        <h3 class="text-center">My To-Do List</h3>
+
+        <section class="new-task-container">
+            <form>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Write your task">
+
+                    <span class="input-group-btn">
+                            <button class="btn btn-primary" type="submit">Add task</button>
+                    </span>
+                </div>
+            </form>
+        </section>
+
+        <section class="tasks-container">
+            <ul>
+                <li class="single-task">
+                    <div class="input-group">
+                       
+                        <span class="input-group-btn">
+                            <button class="btn btn-default toggle-complete-btn"><i class="fa fa-check"></i></button>
+                        </span>
+                       
+                        <input type="text" class="form-control" placeholder="Title1">
+
+                        <span class="input-group-btn">
+                            <button class="btn btn-default delete-task-btn"><i class="fa fa-times"></i></button>
+                            
+                        </span>
+                    </div>
+                </li>
+                <li class="single-task">
+                    <div class="input-group">
+
+                        <span class="input-group-btn">
+                            <button class="btn btn-default toggle-complete-btn"><i class="fa fa-check"></i></button>
+                        </span>
+
+                        <input type="text" class="form-control" placeholder="Title2">
+
+                        <span class="input-group-btn">
+                            <button class="btn btn-default delete-task-btn"><i class="fa fa-times"></i></button>
+
+                        </span>
+                    </div>
+                </li>
+                <li class="single-task">
+                    <div class="input-group">
+
+                        <span class="input-group-btn">
+                            <button class="btn btn-default toggle-complete-btn"><i class="fa fa-check"></i></button>
+                        </span>
+
+                        <input type="text" class="form-control" placeholder="Title3">
+
+                        <span class="input-group-btn">
+                            <button class="btn btn-default delete-task-btn"><i class="fa fa-times"></i></button>
+
+                        </span>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main> 
+</body>
+</html>
